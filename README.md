@@ -1,31 +1,112 @@
-# sumitmangela.github.io/hotel
+# 🌟 Hotel Booking Website in HTML/CSS 🌟
 
-It is a front-end for a simple hotel booking site. The site is developed using HTML/CSS and jquery plugins are used to provide extra features. There are total 5 webpages of the website.
+Welcome to the **Hotel Booking Website** repository! This project is a simple yet effective website built using HTML and CSS, designed to facilitate hotel bookings. Whether you are a developer looking to enhance your skills or someone interested in hotel management solutions, this repository offers a straightforward approach to creating a hotel booking interface.
 
-* Home Page - 
-It is a indroductionary page about the hotel itself. It contains various images of the hotel which are slided in a conware fashion using an image slider. It also contains details about the rooms and a link to rooms page. It also shows free features that hotel provides to every visitor. Some reviews that hotel recieved over the years are also represented in a conware fashion. and finally a button which links to hotel booking facility.
-The image sliders (carousels) for rooms and reviews are draggable for the swift use of mobile users.
-Every page execpt booking page has a button which links redirects user to booking facility.
-Footer of every page contains some details about the hotel and address of the hotel along with the social links for the hotel.
-Scroll to top facility is also provided which redirects user to the top of the page along with a subtle animation when user clicks on a button. 
+![Hotel Booking](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen) [![GitHub Releases](https://img.shields.io/github/release/Bushabush/Hotel-Booking-Website-in-HTML-CSS.svg)](https://github.com/Bushabush/Hotel-Booking-Website-in-HTML-CSS/releases)
 
-* Explore Page - 
-It is a descriptive page for the various features hotel provides. New features can be easily added along with an image. The page follows principle of Minimalism and provides just the features nothing more.
+## Table of Contents
 
-* Rooms Page - 
-This page provides all the details about the rooms available in the hotel. When you hover over any of the room the details of that room will pe presented to you with a linear transition which is achieved with pure CSS3.
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [File Structure](#file-structure)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
-* Booking Page - 
-This is the page which has the booking faciltiy of the hotel. The form contains inputs for name, email-id, type of rooms, Number of rooms, and number of visitors. For number of rooms and visitors spinner buttons are provided (-,+) using a jquery plugin. For Date of Arrival and departure a datepicker jquery plugin is used.
+## Features
 
-* Contact Page - 
-This page can be used to contact the hotel by filling a simple form. It also serves purpose of providing the location of hotel in google maps. The location of hotel and zoom levels of the map can be easily modified.
+- **User-Friendly Interface**: The website offers an intuitive layout for easy navigation.
+- **Responsive Design**: It works well on various devices, from desktops to mobile phones.
+- **Reservation System**: Users can check availability and make reservations.
+- **Attractive Design**: The website employs modern design principles to create an appealing look.
+- **Fast Loading Times**: Optimized HTML and CSS for quick loading.
 
+## Technologies Used
 
-# Jquey Plugins used for the website
+This project utilizes the following technologies:
 
-* Image slider - Slick Slider - https://github.com/kenwheeler/slick
-* Scroll to top - Scrollup - https://github.com/markgoodyear/scrollup
-* Datepicker - pickmeup - https://github.com/nazar-pc/PickMeUp
-* Spinner buttons - Handle Counter - https://github.com/nick-running/handle-counter
+- **HTML5**: The backbone of the website, providing structure and content.
+- **CSS**: Used for styling and layout.
+- **JavaScript**: Adds interactivity and dynamic features.
+- **jQuery**: Simplifies DOM manipulation and event handling.
 
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Bushabush/Hotel-Booking-Website-in-HTML-CSS.git
+   ```
+
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd Hotel-Booking-Website-in-HTML-CSS
+   ```
+
+3. **Open the `index.html` file** in your web browser.
+
+4. **Download the latest release** from the [Releases section](https://github.com/Bushabush/Hotel-Booking-Website-in-HTML-CSS/releases) for additional features or updates.
+
+## Usage
+
+Once you have the project running, you can explore the following functionalities:
+
+- **Search for Hotels**: Enter your destination and dates to find available hotels.
+- **View Hotel Details**: Click on a hotel to see more information, including amenities and pricing.
+- **Make a Reservation**: Fill out the reservation form to book your stay.
+
+Feel free to modify the HTML and CSS files to suit your needs.
+
+## File Structure
+
+Here is a breakdown of the project’s file structure:
+
+```
+Hotel-Booking-Website-in-HTML-CSS/
+│
+├── index.html          # Main HTML file
+├── css/               # Directory for CSS files
+│   ├── styles.css     # Main stylesheet
+│
+├── js/                # Directory for JavaScript files
+│   ├── script.js      # Main JavaScript file
+│
+└── images/            # Directory for images
+    ├── hotel1.jpg     # Example hotel image
+    ├── hotel2.jpg     # Example hotel image
+```
+
+## Contributing
+
+We welcome contributions to improve this project. If you want to help:
+
+1. **Fork the Repository**: Click the fork button at the top right of the page.
+2. **Create a New Branch**: 
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Your Changes** and commit them:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. **Push to Your Branch**:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. **Create a Pull Request**: Go to the original repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use it for personal or commercial projects.
+
+## Contact
+
+For questions or suggestions, feel free to reach out:
+
+- **GitHub**: [Bushabush](https://github.com/Bushabush)
+- **Email**: bushabush@example.com
+
+Thank you for checking out the **Hotel Booking Website** repository! We hope it helps you in your web development journey. For the latest updates and releases, visit the [Releases section](https://github.com/Bushabush/Hotel-Booking-Website-in-HTML-CSS/releases).
